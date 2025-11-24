@@ -1,6 +1,6 @@
 
 
-`database container`: hosts the Redis database. For more details about Redis in SONiC, see [Redis in SONiC](redis_in_sonic.md).
+`database container`: hosts the Redis database. For more details about Redis in SONiC, see [Redis in SONiC](redis_in_sonic.md) for more details.
 
 `swss`: the SWitch State Service provides a database interface that allows for state representation of network applications and switch hardware. The service is run in the `swss` container.
 
@@ -20,7 +20,7 @@
 ## monitoring related SONiC components
 
 `monit`: utility for monitoring services on a Unix system. Documented in the [Monit section](#monit).
-`systemd`: system and service manager for Linux. In SONiC OS, systemd is used to manage the boot sequence of, amongst others, containers.
+`systemd`: system and service manager for Linux. In SONiC OS, systemd is used to manage the boot sequence of, amongst others, containers. , see [systemd](systemd.md) for more details.
 `supervisord`: a process control system.
 `pmon`: platform monitor, Docker container maintained as part of SONiC. Primarily monitoring and logging sensor readings from hardware using custom scripts.
 
