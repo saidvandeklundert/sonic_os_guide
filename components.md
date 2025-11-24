@@ -57,7 +57,7 @@ Example implementation of a check:
 
 This example script is a tool that verifies VNET routes consistancy between SONiC and vendor SDK DBs.
 
-Returns `0` if there is no inconsistancy and `-1` if there is incosistancy found.
+Returns `0` if there is no inconsistancy and `-1` if there is inconsistancy found.
 
 - Monit configuration file was updated to periodically invoke a script:
 
